@@ -64,6 +64,10 @@ p {
     color: #ffffff!important;
     padding-left: 2rem!important;
 }
+.active-border {
+    border-bottom: 0.5rem solid #ffffff;
+    box-shadow: 0 0.1rem #808080;
+}
 .navbar-toggler {
     border: 0!important;
     outline: 0!important;
