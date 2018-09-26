@@ -163,4 +163,7 @@ footer p {
 
 .bg-contact-secondary {
     background-image: url(../images/Contact.jfif);
+.links {
+    text-decoration: none;
+    color: #ffffff;
 }
