@@ -1,0 +1,175 @@
+/* ------------------------------ ALL ------------------------------ */
+
+/* GENERAL STYLING */
+
+html {
+    overflow-x: hidden;
+}
+body {
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    text-shadow: 0.05rem 0.05rem #808080;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Black Ops One', cursive;
+}
+p {
+     font-size: 1.5rem; 
+}
+.container-fluid {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.bg-vid {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    top: 0%;
+    z-index: -100;
+}
+
+/* MULTIPLE SECTION STYLING */
+
+.jumbotron, .padding {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+.no-margin p {
+    margin-bottom: 0;
+}
+.bg-index-main, .bg-education-main, .bg-experience-main, .bg-contact-main {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 5rem;
+}
+.bg-index-secondary, .bg-education-secondary, .bg-experience-secondary, .bg-contact-secondary {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+/* NAVIGATION BAR */
+
+.navbar-sticky {
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+.nav-link {
+    text-shadow: 0.1rem 0.1rem #808080;
+    color: #ffffff!important;
+    padding-left: 2rem!important;
+}
+.active-border {
+    border-bottom: 0.5rem solid #ffffff;
+    box-shadow: 0 0.1rem #808080;
+}
+.navbar-toggler {
+    border: 0!important;
+    outline: 0!important;
+}
+.fa-cog {
+    text-shadow: none;
+}
+.fa-bars {
+    color: #ffffff;
+}
+
+/* BIO */
+
+.jumbotron {
+    background-color: transparent;
+    margin-bottom: 0;
+}
+.jumbotron h1 {
+    margin-top: 5rem;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #000000;
+}
+footer p {
+    margin-bottom: 0;  
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 991px) {
+    .active-border {
+        border-bottom: none;
+        border-right: 0.5rem solid #ffffff;
+        box-shadow: 0.1rem 0 #808080;
+        padding-right: 0.5rem;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .display-3 {
+        font-size: 3.5rem;
+    }
+}
+
+/* ------------------------------ INDEX ------------------------------ */
+
+/* NAVIGATION BAR */
+
+.bg-index-main {
+    background-image: url(../images/index.jpg);
+}
+
+/* SKILLS */
+
+.bg-index-secondary {
+    background-image: url(../images/index.jpg);
+}
+
+/* ------------------------------ EDUCATION ------------------------------ */
+
+/* NAVIGATION BAR */
+
+.bg-education-main {
+    background-image: url(../images/education-main.jpg);
+}
+
+/* DETAILS */
+
+.bg-education-secondary {
+    background-image: url(../images/education-secondary.jpg);
+}
+
+/* ------------------------------ EXPERIENCE ------------------------------ */
+
+/* NAVIGATION BAR */
+
+.bg-experience-main {
+    background-image: url(../images/experience-main.jpg);
+}
+
+/* DETAILS */
+
+.bg-experience-secondary {
+    background-image: url(../images/experience-secondary.jpg);
+}
+
+/* ------------------------------ CONTACT ------------------------------ */
+
+/* NAVIGATION BAR */
+
+.bg-contact-main {
+    background-image: url(../images/contact-main.jpg);
+}
+
+/* DETAILS */
+
+.bg-contact-secondary {
+    background-image: url(../images/contact-secondary.jpg);
+}
+.bg-contact-secondary a {
+    text-decoration: none;
+    color: #ffffff;
+}
